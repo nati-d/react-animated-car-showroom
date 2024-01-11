@@ -5,6 +5,7 @@ import About from '../components/About'
 import Logos from '../components/Logos'
 import Cars from '../components/Cars'
 import CarAd from '../components/CarAd'
+import Vehicles from '../components/Vehicles'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Logos/>
       <Cars/>
       <CarAd/>
+      <Vehicles/>
     </div>
   )
 }

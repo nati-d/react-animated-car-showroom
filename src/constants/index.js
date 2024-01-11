@@ -103,3 +103,268 @@ export const cars = [
       "img": "https://images.pexels.com/photos/5704256/pexels-photo-5704256.jpeg?auto=compress&cs=tinysrgb&w=600"
     }
   ]
+export const brands = [
+  {
+    id:1,
+    name:"Toyota"
+  },
+  {
+    id:2,
+    name:"Hyundai"
+  },
+  {
+    id:3,
+    name:"Honda"
+  },
+  {
+    id:4,
+    name:"Ford"
+  },
+  {
+    id:5,
+    name:"Volkswagen"
+  },
+]
+
+export const vehicles = [
+  {
+    "id": 1,
+    "model": "Camry",
+    "brand": "Toyota",
+    "description": "The Toyota Camry is a reliable and fuel-efficient sedan, known for its comfortable interior and smooth ride.",
+    "detailed_specifications": {
+      "engine": "2.5L Inline-4",
+      "transmission": "Automatic",
+      "fuel_type": "Gasoline",
+      "horsepower": 203,
+      "torque": 184,
+      "mileage": "28 MPG city / 39 MPG highway"
+    },
+    "production_year": 2022,
+    "img": "https://images.pexels.com/photos/17507672/pexels-photo-17507672/free-photo-of-white-toyota-86-parked-in-a-residential-courtyard.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 2,
+    "model": "Sonata",
+    "brand": "Hyundai",
+    "description": "The Hyundai Sonata is a stylish and feature-packed sedan, offering a blend of performance and technology.",
+    "detailed_specifications": {
+      "engine": "2.4L Inline-4",
+      "transmission": "8-speed Automatic",
+      "fuel_type": "Gasoline",
+      "horsepower": 185,
+      "torque": 178,
+      "mileage": "25 MPG city / 36 MPG highway"
+    },
+    "production_year": 2023,
+    "img": "https://images.pexels.com/photos/11194510/pexels-photo-11194510.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 3,
+    "model": "Accord",
+    "brand": "Honda",
+    "description": "The Honda Accord is a well-rounded sedan, offering a spacious interior, advanced safety features, and efficient performance.",
+    "detailed_specifications": {
+      "engine": "1.5L Turbocharged Inline-4",
+      "transmission": "CVT",
+      "fuel_type": "Gasoline",
+      "horsepower": 192,
+      "torque": 192,
+      "mileage": "30 MPG city / 38 MPG highway"
+    },
+    "production_year": 2022,
+    "img": "https://images.pexels.com/photos/3541550/pexels-photo-3541550.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 4,
+    "model": "Fusion",
+    "brand": "Ford",
+    "description": "The Ford Fusion is a stylish and practical sedan, known for its comfortable ride and available hybrid options.",
+    "detailed_specifications": {
+      "engine": "2.5L Inline-4",
+      "transmission": "6-speed Automatic",
+      "fuel_type": "Gasoline",
+      "horsepower": 175,
+      "torque": 175,
+      "mileage": "21 MPG city / 31 MPG highway"
+    },
+    "production_year": 2023,
+    "img": "https://images.pexels.com/photos/1007410/pexels-photo-1007410.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 5,
+    "model": "Passat",
+    "brand": "Volkswagen",
+    "description": "The Volkswagen Passat is a comfortable and spacious sedan, offering a refined interior and smooth handling.",
+    "detailed_specifications": {
+      "engine": "2.0L Turbocharged Inline-4",
+      "transmission": "6-speed Automatic",
+      "fuel_type": "Gasoline",
+      "horsepower": 174,
+      "torque": 206,
+      "mileage": "24 MPG city / 36 MPG highway"
+    },
+    "production_year": 2022,
+    "img": "https://images.pexels.com/photos/131811/pexels-photo-131811.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 6,
+    "model": "Highlander",
+    "brand": "Toyota",
+    "description": "The Toyota Highlander is a versatile and spacious SUV, perfect for families with its three-row seating and advanced safety features.",
+    "detailed_specifications": {
+      "engine": "3.5L V6",
+      "transmission": "8-speed Automatic",
+      "fuel_type": "Gasoline",
+      "horsepower": 295,
+      "torque": 263,
+      "mileage": "21 MPG city / 29 MPG highway"
+    },
+    "production_year": 2023,
+    "img": "https://images.pexels.com/photos/16850881/pexels-photo-16850881/free-photo-of-a-red-toyota-gr86-on-an-asphalt-road.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 7,
+    "model": "Elantra",
+    "brand": "Hyundai",
+    "description": "The Hyundai Elantra is a compact sedan offering a sleek design, efficient performance, and a host of modern features.",
+    "detailed_specifications": {
+      "engine": "2.0L Inline-4",
+      "transmission": "Intelligent Variable Transmission (IVT)",
+      "fuel_type": "Gasoline",
+      "horsepower": 147,
+      "torque": 132,
+      "mileage": "33 MPG city / 43 MPG highway"
+    },
+    "production_year": 2023,
+    "img": "https://images.pexels.com/photos/11482784/pexels-photo-11482784.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 8,
+    "model": "Civic",
+    "brand": "Honda",
+    "description": "The Honda Civic is a compact car known for its reliability, fuel efficiency, and sporty design.",
+    "detailed_specifications": {
+      "engine": "2.0L Inline-4",
+      "transmission": "CVT",
+      "fuel_type": "Gasoline",
+      "horsepower": 158,
+      "torque": 138,
+      "mileage": "30 MPG city / 38 MPG highway"
+    },
+    "production_year": 2022,
+    "img": "https://images.pexels.com/photos/6894420/pexels-photo-6894420.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 9,
+    "model": "Escape",
+    "brand": "Ford",
+    "description": "The Ford Escape is a compact SUV offering a blend of performance, comfort, and advanced technology.",
+    "detailed_specifications": {
+      "engine": "1.5L Turbocharged Inline-3",
+      "transmission": "8-speed Automatic",
+      "fuel_type": "Gasoline",
+      "horsepower": 181,
+      "torque": 190,
+      "mileage": "27 MPG city / 33 MPG highway"
+    },
+    "production_year": 2023,
+    "img": "https://images.pexels.com/photos/272374/pexels-photo-272374.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 10,
+    "model": "Tiguan",
+    "brand": "Volkswagen",
+    "description": "The Volkswagen Tiguan is a compact SUV known for its refined interior, comfortable ride, and available third-row seating.",
+    "detailed_specifications": {
+      "engine": "2.0L Turbocharged Inline-4",
+      "transmission": "8-speed Automatic",
+      "fuel_type": "Gasoline",
+      "horsepower": 184,
+      "torque": 221,
+      "mileage": "23 MPG city / 29 MPG highway"
+    },
+    "production_year": 2022,
+    "img": "https://images.pexels.com/photos/15256362/pexels-photo-15256362/free-photo-of-a-parked-volkswagen-passat.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 11,
+    "model": "Rav4",
+    "brand": "Toyota",
+    "description": "The Toyota RAV4 is a popular compact SUV known for its rugged design, versatile cargo space, and advanced safety features.",
+    "detailed_specifications": {
+      "engine": "2.5L Inline-4",
+      "transmission": "8-speed Automatic",
+      "fuel_type": "Gasoline",
+      "horsepower": 203,
+      "torque": 184,
+      "mileage": "28 MPG city / 35 MPG highway"
+    },
+    "production_year": 2023,
+    "img": "https://images.pexels.com/photos/3874337/pexels-photo-3874337.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 12,
+    "model": "Santa Fe",
+    "brand": "Hyundai",
+    "description": "The Hyundai Santa Fe is a midsize SUV offering a comfortable ride, spacious interior, and a range of advanced safety features.",
+    "detailed_specifications": {
+      "engine": "2.5L Inline-4",
+      "transmission": "8-speed Automatic",
+      "fuel_type": "Gasoline",
+      "horsepower": 191,
+      "torque": 182,
+      "mileage": "25 MPG city / 28 MPG highway"
+    },
+    "production_year": 2022,
+    "img": "https://images.pexels.com/photos/4077265/pexels-photo-4077265.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 13,
+    "model": "Pilot",
+    "brand": "Honda",
+    "description": "The Honda Pilot is a reliable midsize SUV with three-row seating, offering ample space for families and a smooth driving experience.",
+    "detailed_specifications": {
+      "engine": "3.5L V6",
+      "transmission": "9-speed Automatic",
+      "fuel_type": "Gasoline",
+      "horsepower": 280,
+      "torque": 262,
+      "mileage": "20 MPG city / 27 MPG highway"
+    },
+    "production_year": 2023,
+    "img": "https://images.pexels.com/photos/17364011/pexels-photo-17364011/free-photo-of-a-sports-honda-civic-on-the-parking-lot.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 14,
+    "model": "Explorer",
+    "brand": "Ford",
+    "description": "The Ford Explorer is a versatile and spacious midsize SUV, known for its powerful performance and advanced technology features.",
+    "detailed_specifications": {
+      "engine": "2.3L Turbocharged Inline-4",
+      "transmission": "10-speed Automatic",
+      "fuel_type": "Gasoline",
+      "horsepower": 300,
+      "torque": 310,
+      "mileage": "21 MPG city / 28 MPG highway"
+    },
+    "production_year": 2022,
+    "img": "https://images.pexels.com/photos/10905518/pexels-photo-10905518.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 15,
+    "model": "Atlas",
+    "brand": "Volkswagen",
+    "description": "The Volkswagen Atlas is a spacious and family-friendly midsize SUV, offering three-row seating and a comfortable ride.",
+    "detailed_specifications": {
+      "engine": "3.6L V6",
+      "transmission": "8-speed Automatic",
+      "fuel_type": "Gasoline",
+      "horsepower": 276,
+      "torque": 266,
+      "mileage": "17 MPG city / 23 MPG highway"
+    },
+    "production_year": 2023,
+    "img": "https://images.pexels.com/photos/15223419/pexels-photo-15223419/free-photo-of-a-red-volkswagen-passat.jpeg?auto=compress&cs=tinysrgb&w=600"
+  }
+]
