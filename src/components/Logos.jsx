@@ -13,7 +13,7 @@ const variants = {
 const Logos = () => {
   return (
     <motion.div
-      className="flex flex-col md:flex-row gap-10 justify-around items-center mb-20 w-full"
+      className="flex flex-col md:flex-row gap-10 justify-around items-center mb-20 w-full overflow-hidden"
       initial="initial"
       whileInView="animate"
       variants={variants}

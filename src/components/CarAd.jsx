@@ -2,7 +2,7 @@ import React from "react";
 import {motion} from 'framer-motion'
 const CarAd = () => {
   return (
-    <div className="gradient w-full text-white p-5 md:p-20 flex flex-col md:flex-row">
+    <div className="gradient w-full text-white p-5 md:p-20 flex flex-col md:flex-row ">
       <div className="w-full md:w-1/2 flex flex-col gap-10">
         <h1 className="text-4xl text-center md:text-left md:text-7xl font-semibold">
           Worlds Largest Car Brands Marketplace
@@ -35,7 +35,7 @@ const CarAd = () => {
         </motion.button>
       </div>
       <div className="hidden  w-full md:w-1/2 md:flex justify-center items-center">
-        <img src="abcar1.png" alt="" className="w-[80%]" />
+        <img src="abcar1.png" alt="" className="" />
       </div>
     </div>
   );

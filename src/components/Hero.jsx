@@ -34,7 +34,7 @@ const Hero = () => {
         initial={{ x: 200, opacity: 0 }}
         animate={{ x: 0, opacity: 1, transition: { duration: 1.5 } }}
       >
-        <img src="/herocar.png" alt="herocar" />
+        <img src="/herocar.png" alt="herocar" className="w-full h-full object-cover "/>
       </motion.div>
     </div>
   );

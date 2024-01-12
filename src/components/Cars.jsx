@@ -9,7 +9,7 @@ const Cars = () => {
         setMenu(name)
     }
   return (
-    <div className="w-[90%] m-auto mb-10">
+    <div className="w-[90%] m-auto mb-10 overflow-hidden">
       <h1 className="text-5xl mb-8 font-bold ">Get All Luxurious Brand Cars</h1>
       <div className="flex flex-col md:flex-row gradient md:p-20 text-white justify-between gap-10 relative overflow-hidden">
           <h1 className="absolute -top-60 -left-10 text-[420px] text-gray-600 -z-1 whitespace-nowrap ">{selectedCar.name}</h1>
