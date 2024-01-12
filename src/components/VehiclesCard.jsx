@@ -6,7 +6,7 @@ const VehiclesCard = ({vehicle}) => {
     <div className="h-[500px] w-[400px] border flex flex-col gap-1">
         <div className='w-full h-[450px] overflow-hidden'>
 
-          <img src={vehicle.img} alt="" className="w-full h-full object-cover"/>
+          <motion.img src={vehicle.img} alt="" className="w-full h-full object-cover" whileHover={{scale:1.1, transition:{duration:0.3}}}/>
         </div>
           <h1 className="text-lg ml-2">{vehicle.model}</h1>
           <p className="text-sm text-gray-400 ml-2">{vehicle.production_year}</p>

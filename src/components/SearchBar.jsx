@@ -5,7 +5,7 @@ import { LuSearch } from "react-icons/lu";
 const SearchBar = () => {
   return (
     <motion.div
-      className="w-[80%] m-auto h-40 bg-white -mt-20 border border-black hidden md:flex flex-col justify-around px-10 rounded-md"
+      className="w-[80%] m-auto h-40 bg-white -mt-20 border border-black hidden md:flex flex-col justify-around px-10 rounded-md z-50"
       initial={{ opacity: 0 ,y:300}}
       animate={{ opacity: 1, y:0, transition: { duration: 1.5 } }}
     >

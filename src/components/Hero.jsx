@@ -3,9 +3,10 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <div className="w-full gradient text-white flex flex-wrap md:p-40 items-center gap-10 ">
+    <div className="w-full gradient text-white flex flex-wrap md:p-40 items-center gap-10 relative overflow-x-hidden -z-10">
+      <h1 className="text-[420px] absolute -bottom-10 text-gray-500 -z-1">Luxury</h1>
       <motion.div
-        className="w-full md:w-1/2 flex flex-col gap-6 md:gap-16 items-center md:items-start "
+        className="w-full md:w-1/2 flex flex-col gap-6 md:gap-16 items-center md:items-start z-10"
         initial={{ x: -200, opacity: 0 }}
         animate={{ x: 0, opacity: 1, transition: { duration: 1 } }}
       >
@@ -29,7 +30,7 @@ const Hero = () => {
         </div>
       </motion.div>
       <motion.div
-        className="w-full md:w-1/3 flex items-center justify-center "
+        className="w-full md:w-1/3 flex items-center justify-center z-10"
         initial={{ x: 200, opacity: 0 }}
         animate={{ x: 0, opacity: 1, transition: { duration: 1.5 } }}
       >
