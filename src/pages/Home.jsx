@@ -9,7 +9,7 @@ import Vehicles from '../components/Vehicles'
 
 const Home = () => {
   return (
-    <div className='relative'>
+    <div className='relative w-full overflow-hidden'>
       <Hero/>
       <SearchBar/>
       <About/>
