@@ -18,8 +18,8 @@ const Vehicles = () => {
             className={`py-2 px-8 ${
               selectedBrand == brand.name
                 ? "bg-black text-white"
-                : "bg-white text-red-500"
-            } text-white rounded-md border shadow-sm cursor-pointer`}
+                : "bg-white text-black"
+            }  rounded-md border shadow-sm cursor-pointer`}
             onClick={() => handleBrand(brand.name)}
             whileTap={{scale:0.90}}
             
